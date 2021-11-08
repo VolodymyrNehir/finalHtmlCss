@@ -1,0 +1,285 @@
+@media screen and (max-width: 769px) {
+    .nav__row {
+        display: block !important;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .catalog .input-group > .form-control {
+        width: 237px;
+    }
+
+    .catalog .input-group {
+        min-width: 237px;
+    }
+
+    .catalog-main {
+        min-width: 0px;
+    }
+
+    .nav_left {
+        display: block !important;
+    }
+
+    .nav__right {
+        display: block !important;
+    }
+
+    .nav__row {
+        margin-top: 10px;
+    }
+
+    .logo-block:nth-child(2),
+    .logo-block:nth-child(3),
+    .logo-block:nth-child(4) {
+        display: none;
+    }
+
+    .logo-block:nth-child(1), .logo-block:nth-child(5) {
+        width: 50%;
+    }
+
+    .logo-block:nth-child(1) .logo-text h2 {
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    .logo-block .logo-text p {
+        font-size: 10px;
+    }
+
+    .logo-block:nth-child(5) h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .logo-block:nth-child(5) p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .logo-block:nth-child(4) .logo-text p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .logo-block:nth-child(5) .logo-block_bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-block:nth-child(5) .logo-block_bg img {
+        margin-right: 5px;
+    }
+
+    .catalog-info {
+        display: none;
+    }
+
+    .catalog-main {
+        width: 25%;
+    }
+
+    .catalog-main span {
+        display: none;
+    }
+
+    .catalog .input-group > .form-control {
+        flex: 0 1 auto;
+        width: 100%;
+    }
+
+    .slider-action {
+        display: flex;
+    }
+
+    .carousel-header {
+        font-size: 16px;
+        line-height: 19px
+    }
+
+    .carousel-info {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .carousel-price {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .carousel-price span {
+        display: none;
+    }
+
+    .carousel-button {
+        font-size: 12px;
+        line-height: 14px;
+        width: 124px;
+        height: 34px;
+    }
+
+
+    .slider-row {
+        display: block;
+    }
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-img img {
+        width: 250px;
+        height: 200px;
+        padding-right: 40px;
+    }
+
+    .slider-action {
+        flex-direction: row;
+    }
+
+    .action-block:nth-child(2) {
+        display: none;
+    }
+
+    .action-block:nth-child(1) {
+        margin-top: 20px;
+    }
+
+    .triple-row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .triple-block {
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .good-block {
+        width: 50%;
+    }
+
+    .good-block:nth-child(4),
+    .good-block:nth-child(8),
+    .good-block:nth-child(3),
+    .good-block:nth-child(6) {
+        display: none;
+    }
+
+    .good-row {
+        margin: 0 -4px;
+    }
+
+    .good-block {
+        padding: 0 4px;
+    }
+
+    .good-header {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .good-image img {
+        width: 150px;
+        height: 120px;
+    }
+
+    .good-block:nth-child(2) .good-image img {
+        width: 150px;
+        height: 120px;
+    }
+
+    .buttons {
+        font-size: 13px;
+    }
+
+    .good-stats {
+        display: none;
+    }
+
+    .news-row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+
+    .news-block {
+        width: 100%;
+    }
+
+    .news-date::before {
+        display: none;
+    }
+
+
+    .footer-row {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .footer-block_row {
+        flex-direction: column;
+    }
+
+    .footer .input-group {
+        padding-right: 20px;
+        width: 300px;
+    }
+
+    .input-group {
+        flex-wrap: nowrap;
+    }
+
+    .good-block:nth-child(2) .good-price p, .good-block:nth-child(6) .good-price p {
+        height: 15px;
+    }
+
+    .fixed-blok {
+        width: 100%;
+        height: 60px;
+        background: #FFFFFF;
+        position: fixed;
+        bottom: 0;
+    }
+
+    body {
+        padding-bottom: 60px;
+    }
+
+    .fixed-blok {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+        text-align: center;
+    }
+
+    .fixed-blok p {
+        color: #0F2438;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .nav_top {
+        display: flex;
+        width: 100%;
+        height: 36px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        align-items: center;
+        text-decoration: none;
+        list-style-type: none
+    }
+
+}
